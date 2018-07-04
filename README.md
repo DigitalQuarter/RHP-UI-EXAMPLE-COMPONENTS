@@ -1,6 +1,6 @@
 ## RHP-UI-EXAMPLE-COMPONENTS
 
-A simple list of components written in plain HTML and SCSS to assist with UI development.
+A simple list of components written in plain HTML and SCSS to assist with UI development for RHP web and mobile Apps. This is just a guide. Pick and choose what you need and convert to React in production.
 
 CSS/SCSS implements the BEM naming convention.
 
