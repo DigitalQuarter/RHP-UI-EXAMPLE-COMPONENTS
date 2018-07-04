@@ -8,6 +8,7 @@ CSS animations and transitions are included within components.
 
 Some components included example JS functions that add and remove animation classes on button clicks, etc,. These are just examples of how we want them to work. Not inteneded for production use in react.
 
+---
 
 ### Getting started
 
