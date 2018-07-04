@@ -8,7 +8,11 @@ CSS/SCSS implements the BEM naming convention.
 ##### Getting started
 
 ```sh
-$ npm install (within component directory)
-
-$ gulp (starts local dev server on http://localhost:8000/ and watches to compile scss)
+$ npm install
 ```
+(within component directory)
+
+```sh
+$ gulp
+```
+(starts local dev server on http://localhost:8000/ and watches to compile scss)
