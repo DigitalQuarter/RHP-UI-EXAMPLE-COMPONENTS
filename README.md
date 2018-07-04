@@ -4,6 +4,10 @@ A simple list of components written in plain HTML and SCSS to assist with UI dev
 
 CSS/SCSS implements the BEM naming convention.
 
+CSS animations and transitions are included within components.
+
+Some components included example JS functions that add and remove animation classes on button clicks, etc,. These are just examples of how we want them to work. Not inteneded for production use in react.
+
 
 ##### Getting started
 
