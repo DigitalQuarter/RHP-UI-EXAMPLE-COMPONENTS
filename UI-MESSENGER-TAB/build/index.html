@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UI MESSENGER TAB</title>
+
+  	<style> body, html {background-color: #eee;} </style>
+
+  	<!-- ************************************************ -->
+    <!-- ******************** STYLES ******************** -->
+    <!-- ************************************************ -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ui-messenger-tab.min.css">
+    <!-- ************************************************ -->
+    <!-- ********************* END ********************** -->
+    <!-- ************************************************ -->
+
+  </head>
+
+
+  <body>
+
+  	<!-- ************************************************ -->
+  	<!-- ******************* COMPONENT ****************** -->
+    <!-- **** TODO >>> CONVERT FOR REACTJS BEST PRAC **** -->
+  	<!-- ************************************************ -->
+      <div msgId="msg-1" class="msg-tab">
+        <div class="__unread-msg-count">0</div>
+        <div class="__last-msg-time">0:00am</div>
+        <div class="__pin-msg-icon" onclick="pinMsg()"></div>
+        <div class="__user-profile-image"></div>
+        <div class="__msg-username">Firstname Lastname</div>
+        <div class="__msg-recent">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+      </div>
+    <!-- ************************************************ -->
+    <!-- ********************* END ********************** -->
+    <!-- ************************************************ -->
+
+  </body>
+
+
+    	<!-- ************************************************ -->
+    	<!-- **** USER INTERACTIONS / ANIMATION TRIGGERS **** -->
+    	<!-- **** TODO >>> CONVERT FOR REACTJS BEST PRAC **** -->
+      <!-- ************************************************ -->
+      <script>
+
+        let isPinActive = false;
+
+        pinMsg = () => {
+
+          isPinActive = !isPinActive;
+          let pin = document.getElementsByClassName("__pin-msg-icon")[0];
+
+          if (isPinActive) {
+            pin.classList.add("--pin-is-selected");
+          } else {
+            pin.classList.remove("--pin-is-selected");
+          }
+
+        }
+
+      </script>
+      <!-- ************************************************ -->
+      <!-- ********************* END ********************** -->
+      <!-- ************************************************ -->
+
+
+</html>
+
+
