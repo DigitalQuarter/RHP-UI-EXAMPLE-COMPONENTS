@@ -20,5 +20,8 @@ $ npm install
 # Starts local dev server on http://localhost:8000/ and watches to compile scss
 $ gulp
 ```
+---
+### Desktop components
+
 [DESKTOP-MESSENGER-TAB](https://github.com/DigitalQuarter/RHP-UI-EXAMPLE-COMPONENTS/tree/master/DESKTOP/DESKTOP-MESSENGER-TAB)
 ![alt text](https://github.com/DigitalQuarter/RHP-UI-EXAMPLE-COMPONENTS/blob/master/DESKTOP/DESKTOP-MESSENGER-TAB/component.jpg)
