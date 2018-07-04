@@ -22,4 +22,4 @@ $ gulp
 ```
 
 ##### DESKTOP-MESSENGER-TAB
-![alt text](https://github.com/DigitalQuarter/RHP-UI-EXAMPLE-COMPONENTS/blob/master/DESKTOP-MESSENGER-TAB/component.jpg)
+![alt text](https://github.com/DigitalQuarter/RHP-UI-EXAMPLE-COMPONENTS/blob/master/DESKTOP/DESKTOP-MESSENGER-TAB/component.jpg)
